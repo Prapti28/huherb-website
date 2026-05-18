@@ -1,1 +1,3 @@
 node_modules
+src/components/GoogleTranslate.jsx
+src/components/LanguageSwitcher.jsx
