@@ -1,0 +1,26 @@
+{
+  "src": {
+    "components": {
+      "Navbar.jsx": "export default function Navbar(){ return <div>Navbar</div> }",
+      "Footer.jsx": "export default function Footer(){ return <div>Footer</div> }"
+    },
+    "pages": {
+      "Home.jsx": "export default function Home(){ return <h1>Home</h1> }",
+      "About.jsx": "export default function About(){ return <h1>About</h1> }",
+      "Products.jsx": "export default function Products(){ return <h1>Products</h1> }",
+      "ProductDetails.jsx": "export default function ProductDetails(){ return <h1>Details</h1> }",
+      "Certificates.jsx": "export default function Certificates(){ return <h1>Certificates</h1> }",
+      "Contact.jsx": "export default function Contact(){ return <h1>Contact</h1> }"
+    },
+    "data": {
+      "products.js": "export const products = [];"
+    },
+    "locales": {
+      "en.json": "{}",
+      "hi.json": "{}",
+      "mr.json": "{}"
+    },
+    "App.jsx": "export default function App(){ return <h1>App</h1> }",
+    "main.jsx": "console.log('Main file');"
+  }
+}
