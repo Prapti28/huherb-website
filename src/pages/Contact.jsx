@@ -24,7 +24,7 @@ function Contact() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              +91 9876543210
+              +91 9967296890
             </a>
             </div>
           </p>

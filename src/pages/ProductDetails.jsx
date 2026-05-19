@@ -55,9 +55,6 @@ function ProductDetails() {
       {/* RIGHT SIDE */}
       <div className="grid-2 ">
         <h1>{product.name}</h1>
-        <h2 className="product-price">
-          {product.price}/{product.weight}
-        </h2>
         <p>{product.description}</p><br/>
 
         

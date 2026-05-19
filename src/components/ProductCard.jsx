@@ -16,9 +16,6 @@ function ProductCard({ product }) {
 
         <h3>{product.name}</h3>
         <p>{product.shortDescription}</p>
-        <p className="product-price">
-          {product.price}/{product.weight}
-        </p>
       </Link>
     </motion.div>
   );
