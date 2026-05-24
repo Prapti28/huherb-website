@@ -75,6 +75,47 @@ function ProductDetails() {
           ))}
         </ul>
         </div>
+
+        {/* TURMERIC VARIANTS DROPDOWN */}
+{product.variants && (
+  <div className="turmeric-section">
+    <h2>Turmeric Types</h2>
+
+    {product.variants.map((variant, index) => (
+      <details
+        className="turmeric-dropdown"
+        key={index}
+      >
+        <summary>{variant.name}</summary>
+
+        <div className="turmeric-content">
+
+          <div className="spec-table">
+            {Object.entries(variant.details).map(
+              ([key, value]) => (
+                <div className="spec-row" key={key}>
+                  <span className="spec-label">
+                    {key
+                      .replace(/([A-Z])/g, " $1")
+                      .replace(
+                        /^./,
+                        (str) => str.toUpperCase()
+                      )}
+                  </span>
+
+                  <span className="spec-value">
+                    {value}
+                  </span>
+                </div>
+              )
+            )}
+          </div>
+
+        </div>
+      </details>
+    ))}
+  </div>
+)}
       </div>
     </motion.div>
   );

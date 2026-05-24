@@ -979,3 +979,81 @@ h1, h2, h3, h4 {
 .goog-te-gadget span {
   display: none !important;
 }
+
+.turmeric-section {
+  margin-top: 40px;
+}
+
+.turmeric-section h2 {
+  color: #2f5d25;
+  margin-bottom: 20px;
+}
+
+.turmeric-dropdown {
+  background: white;
+  border-radius: 18px;
+  margin-bottom: 18px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+.turmeric-dropdown summary {
+  cursor: pointer;
+  padding: 20px 24px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2f5d25;
+  background: #f8f6ef;
+  transition: 0.3s;
+  list-style: none;
+}
+
+.turmeric-dropdown summary:hover {
+  background: #eef6e7;
+}
+
+.turmeric-content {
+  padding: 25px;
+}
+
+.spec-table {
+  width: 100%;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.spec-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid #ececec;
+}
+
+.spec-row:last-child {
+  border-bottom: none;
+}
+
+.spec-label {
+  font-weight: 600;
+  color: #2f5d25;
+  width: 40%;
+}
+
+.spec-value {
+  width: 58%;
+  color: #555;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .spec-row {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .spec-value {
+    text-align: left;
+    width: 100%;
+  }
+}
