@@ -64,7 +64,7 @@ export const products = [
   {
     id: 4,
     slug: "turmeric-powder",
-    name: "Turmeric Powder",
+    name: "Turmeric",
     shortDescription:
       "Pure turmeric powder with natural color, aroma, and traditional wellness value.",
     description:
