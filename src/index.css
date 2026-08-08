@@ -1057,3 +1057,40 @@ h1, h2, h3, h4 {
     width: 100%;
   }
 }
+
+.custom-order-box {
+  margin: 40px auto 0;
+  padding: 24px;
+  max-width: 600px;
+  text-align: center;
+
+  background: linear-gradient(135deg, #fff8e8, #f3f8ed);
+  border: 1px solid #e5e0cf;
+  border-radius: 18px;
+}
+
+.custom-order-box h3 {
+  color: #2f5d25;
+  margin-bottom: 10px;
+}
+
+.custom-order-box p {
+  color: #555;
+  margin-bottom: 18px;
+  line-height: 1.6;
+}
+
+.custom-order-btn {
+  display: inline-block;
+  background: #3d7c2f;
+  color: white;
+  padding: 11px 18px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.custom-order-btn:hover {
+  background: #2f5d25;
+  transform: translateY(-2px);
+}

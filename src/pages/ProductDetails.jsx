@@ -117,6 +117,28 @@ function ProductDetails() {
   </div>
 )}
       </div>
+
+              {/* CUSTOM ORDERS */}
+
+     {product.category === "Snacks" && (
+        <div className="custom-order-box">
+        <h3>✨ Custom Orders Available</h3>
+
+        <p>
+          Looking for something special? We also accept customized
+          orders based on your preferences and requirements.
+        </p>
+
+        <a
+          href="https://wa.me/919967296890?text=Hello%20I%20am%20interested%20in%20placing%20a%20customized%20laddoo%20order."
+          target="_blank"
+          rel="noopener noreferrer"
+          className="custom-order-btn"
+        >
+          📲 Request a Custom Order
+        </a>
+      </div>
+     )}
     </motion.div>
   );
 }

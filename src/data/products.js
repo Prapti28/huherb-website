@@ -61,8 +61,53 @@ export const products = [
     image: "/products/methi-laddoo.jpeg",
     images: ["/products/methi-laddoo.jpeg"],
   },
+
+ {
+  id: 4,
+  slug: "dryfruit-laddoo",
+  name: "Dry Fruit Laddoo",
+  shortDescription:
+    "A rich and wholesome laddoo made with premium dry fruits, seeds, nuts, and natural ingredients.",
+
+  description:
+    "HuHerb Dry Fruit Laddoo is a delicious traditional-style sweet prepared with a wholesome blend of dry fruits, nuts, seeds, and natural ingredients. Rich in texture and naturally satisfying, it is a convenient snack for everyday enjoyment and special occasions.",
+
+  category: "Snacks",
+
+  ingredients: [
+    "Almond",
+    "Cashew",
+    "Walnut",
+    "Pistachio",
+    "Dates",
+    "Dry Fig",
+    "Dry Coconut",
+    "Pumpkin Seeds",
+    "Muskmelon Seeds",
+    "Sesame Seeds",
+    "Poppy Seeds",
+    "Ghee"
+  ],
+
+  benefits: [
+    "Good source of energy",
+    "Contains a variety of nuts and seeds",
+    "Made with natural ingredients",
+    "Rich and satisfying snack",
+    "Traditional homemade taste"
+  ],
+
+  weight: "180g",
+  price: "₹240",
+
+  image: "/products/dryfruit-laddoo.jpeg",
+
+  images: [
+    "/products/dryfruit-laddoo.jpeg"
+  ],
+},
   {
-    id: 4,
+    id: 5,
     slug: "turmeric-powder",
     name: "Turmeric",
     shortDescription:
