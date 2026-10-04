@@ -33,6 +33,30 @@ function Certificates() {
           </a>
         </div>
 
+         {/* IEC */}
+        <div className="info-card">
+          <div className="cert-header">
+          <img
+            src="/certificates/iec-logo.png"
+            alt="IEC"
+            className="cert-logo"
+          />
+          <h2>IEC Certification</h2>
+          </div>
+          <p>IEC Code: ARNPK5225B</p>
+          <p>Status: Verified</p>
+
+          <a
+            href="/certificates/IEC.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btn">
+              View Certificate
+            </button>
+          </a>
+        </div>
+
         {/* GST */}
         {/*<div className="info-card">
           <h3>GST Certification</h3>
