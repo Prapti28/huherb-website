@@ -4,20 +4,21 @@ function Certificates() {
       <h1>Certificate Verification</h1>
 
       <p>
-        At Hu-Herb, we prioritize quality, authenticity, and customer trust. Our certifications reflect our commitment to food safety, compliance, and verified standards.
+        At Hu-Herb, we prioritize quality, authenticity, and customer trust. Our
+        certifications reflect our commitment to food safety, compliance, and
+        verified standards.
       </p>
 
       <div className="grid">
-
         {/* UDYAM */}
         <div className="info-card">
           <div className="cert-header">
-          <img
-            src="/certificates/msme-logo.png"
-            alt="MSME"
-            className="cert-logo"
-          />
-          <h2>UDYAM Certification</h2>
+            <img
+              src="/certificates/msme-logo.png"
+              alt="MSME"
+              className="cert-logo"
+            />
+            <h2>UDYAM Certification</h2>
           </div>
           <p>Certificate Number: UDYAM-MH-17-0234401</p>
           <p>Status: Verified</p>
@@ -27,21 +28,19 @@ function Certificates() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="btn">
-              View Certificate
-            </button>
+            <button className="btn">View Certificate</button>
           </a>
         </div>
 
-         {/* IEC */}
+        {/* IEC */}
         <div className="info-card">
           <div className="cert-header">
-          <img
-            src="/certificates/iec-logo.png"
-            alt="IEC"
-            className="cert-logo"
-          />
-          <h2>IEC Certification</h2>
+            <img
+              src="/certificates/iec-logo.png"
+              alt="IEC"
+              className="cert-logo"
+            />
+            <h2>IEC Certification</h2>
           </div>
           <p>IEC Code: ARNPK5225B</p>
           <p>Status: Verified</p>
@@ -51,9 +50,7 @@ function Certificates() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="btn">
-              View Certificate
-            </button>
+            <button className="btn">View Certificate</button>
           </a>
         </div>
 
@@ -74,6 +71,27 @@ function Certificates() {
           </a>
         </div>*/}
 
+        {/* FSSAI */}
+        <div className="info-card">
+          <div className="cert-header">
+            <img
+              src="/certificates/fssai-logo.png"
+              alt="FSSAI"
+              className="cert-logo"
+            />
+            <h2>FSSAI Certification</h2>
+          </div>
+          <p>Certificate Number: 21526023006650</p>
+          <p>Status: Verified</p>
+
+          <a
+            href="/certificates/fssai-certificate.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btn">View Certificate</button>
+          </a>
+        </div>
       </div>
     </section>
   );
